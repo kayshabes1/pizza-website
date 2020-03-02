@@ -22,7 +22,6 @@ function getTotalAmount() {
     alert("You order will be delivered shortly")
     alert("Continue shoppping with us each and every time .")
 }
-
 function myforms() {
         var buttons = document.getElementById("button");
         buttons.onclick = function (event) {
