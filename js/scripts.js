@@ -21,3 +21,19 @@ function getTotalAmount() {
     alert("You delivery fee is 150/=")
     alert("You order will be delivered shortly")
     alert("Continue shoppping with us each and every time .")
+
+
+    function myforms() {
+        var buttons = document.getElementById("button");
+        buttons.onclick = function (event) {
+            var name = document.forms["myForm"]["Name1"].value;
+            var email = document.forms["myForm"]["Email2"].value;
+            if (name == "" || email == "") {
+                alert("Please fill in fields and try again.");
+                return false;
+            }
+            if (name !== "" && email !== "") {
+                alert("Hello " + name + " " + ", your message has been sent successfully! We'll reach out to you soon");
+            }
+        }
+    }
