@@ -1,4 +1,4 @@
-# Delani Studio
+# KAY'S Pizza
 #### WEb app development, 23/02/2020
 #### By Kaysha Besi
 ## Description
