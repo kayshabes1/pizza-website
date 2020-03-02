@@ -89,26 +89,50 @@
                </div>
             </div>
             </div>
-                   <div class="container3">
-                    <form action="/action_page.php">
-                        <label for="sizes">Choose preferred sizes:</label>
-                        <select id="sizes" name="sizes">
-                          <option value="small">Small- 600ksh</option>
-                          <option value="medium">Medium- 800ksh</option>
-                          <option value="ham">Large- 1180ksh</option>
-                        </select>
-                        <input type="submit">
-                      </form>
-                      <form action="/action_page.php">
-                        <label for="toppings">Choose additional toppings:</label>
-                        <select id="toppings" name="toppings">
-                          <option value="cheese">Cheese- 150ksh</option>
-                          <option value="tomatoes">Tomatoes- 100ksh</option>
-                          <option value="ham">Ham- 200ksh</option>
-                          <option value="pineapples">Pineapples- 150ksh</option>
-                        </select>
-                        <input type="submit">
-                      </form>
+            <div class="container-fluid">
+                <div class="container">
+                    <div id="form">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <label for="size" style="color:rgb(255, 0, 13)">Size</label>
+                                    <select class="browser-default custom-select" id="size">
+                                        <option value="">Choose option</option>
+                                        <option value="1500">Large =ksh 1500</option>
+                                        <option value="1000">Medium =ksh 1000</option>
+                                        <option value="500">Small= ksh500</option>
+                                    </select><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="crust" style="color:rgb(255, 0, 13)">Crust</label>
+                                    <select class="browser-default custom-select" id="crust">
+                                        <option value="">Choose option</option>
+                                        <option value="150">Crispy =ksh 150</option>
+                                        <option value="100">Stuffed=ksh 100</option>
+                                        <option value="70">Gluten-free =ksh 70</option>
+                                    </select><br>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="toppings" name="toppings" style="color:rgb(255, 0, 13)">Toppings</label>
+                                    <select class="browser-default custom-select" id="toppings">
+                                        <option value="">Choose option</option>
+                                        <option value="60">Cheese =ksh60</option>
+                                        <option value="60">pepperoni =ksh
+                                        <option value="60">onions =ksh60</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="quantity" style="color: orange">Quantity</label>
+                                    <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max=""
+                                        min="0">
+                                </div><br><br><br><br><br><br>
+                                <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+                                    onclick="getTotalAmount();"><strong>Checkout</strong></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+  
                       <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
                       <script src="js/scripts.js"></script>
                  </body>
