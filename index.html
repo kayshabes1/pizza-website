@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <title>Kay's Pizza Place!</title>
+    </head>
+    <body>
+        <div class="navigation-container">
+            <div class="navigation-content">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">ORDER</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <img src="images/cart.png">
+                    <li><a href="#">Cart</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="container1">
+            <h1>KAY'S PIZZA PLACE!</h1>
+        </div>
+        <div class="container2">
+            <h4>SPECIALS:</h4>
+            <div class="table">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="pepperoni_icon">
+                            <div id="pepperoni_icon">
+                                <div class="p-description">
+                                <div class="caption">
+                                    <p>Pepperoni Pizza </p>
+                                    <p><em>pepperoni</em></p>
+                                    <button>semi-spicy</button>
+                                </div>
+                                </div>
+                            </div>
+                            <div id="pepperoni-p">
+                                <h5>
+                                    <bold>Pepperoni Pizza</bold>
+                                </h5>
+                           
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-md-4">
+                    <div class="hawaiian_icon">
+                        <div id="hawaiian_icon">
+                            <div class="h-description">
+                            <div class="caption">
+                                <p>Hawaiian Pizza </p>
+                                <p><em>ham & pineapples</em></p>
+                                <button>not-spicy</button>
+                            </div>
+                            </div>
+                        </div>
+                        <div id="hawaiian-p">
+                            <h5>
+                                <bold>Hawaiian Pizza</bold>
+                            </h5>
+                    </div>
+                </div>
+               </div>
+               <div class="col-md-4">
+                <div class="bbq_icon">
+                    <div id="bbq_icon">
+                        <div class="b-description">
+                        <div class="caption">
+                            <p>BBQ Pizza </p>
+                            <p><em>beef topping,green pepper,onions,bbq sauce</em></p>
+                            <button>spicy</button>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="bbq-p">
+                        <h5>
+                            <bold>BBQ Pizza </bold>
+                        </h5>
+                </div>
+            </div>
+           </div>
+           </div>
+        </div>
+        </div>
+        <div class="container3">
+            <form action="/action_page.php">
+                <label for="sizes">Choose preferred sizes:</label>
+                <select id="sizes" name="sizes">
+                  <option value="small">Small- 600ksh</option>
+                  <option value="medium">Medium- 800ksh</option>
+                  <option value="ham">Large- 1180ksh</option>
+                </select>
+                <input type="submit">
+              </form>
+            <form action="/action_page.php">
+                <label for="toppings">Choose additional toppings:</label>
+                <select id="toppings" name="toppings">
+                  <option value="cheese">Cheese- 150ksh</option>
+                  <option value="tomatoes">Tomatoes- 100ksh</option>
+                  <option value="ham">Ham- 200ksh</option>
+                  <option value="pineapples">Pineapples- 150ksh</option>
+                </select>
+                <input type="submit">
+              </form>
+            
+        </div>
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    </body>
+    </html>
+</html>
