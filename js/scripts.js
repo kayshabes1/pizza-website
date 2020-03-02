@@ -10,17 +10,14 @@ function getToppings() {
     var selectedToppings = document.getElementById("toppings").value;
     return parseInt(selectedToppings);
 }
-function getQuantity() {
-    var selectedQuantity = document.getElementById("quan").value;
-    return parseInt(selectedQuantity);
-}
+
 function getTotalAmount() {
-    var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-    alert("You have Ordered" + getQuantity("")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
-    prompt("enter your location")
+    var totalAmount = (getSizeValue() + getCrust() + getToppings());
+    alert("You have placed an order for your selected pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
+    prompt("Enter your location")
     alert("You delivery fee is 150/=")
     alert("You order will be delivered shortly")
-    alert("Continue shoppping with us each and every time .")
+    alert("Continue shopping with us.")
 }
 function myforms() {
         var buttons = document.getElementById("button");
