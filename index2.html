@@ -13,9 +13,9 @@
             <div class="navigation-content">
                 <div class="menu">
                     <ul>
-                        <li><a href="#">MENU</a></li>
+                        <li><a href="#menu">MENU</a></li>
                         <li><a href="#">ORDER</a></li>
-                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#contact">CONTACT US</a></li>
                     </ul>
                 </div>
                 <div class="cart">
@@ -27,7 +27,7 @@
         <div class="container1">
             <h1>KAY'S PIZZA PLACE!</h1>
         </div>
-        <div class="container2">
+        <div class="container2" id="menu">
             <h4>SPECIALS:</h4>
             <div class="table">
                 <div class="row">
@@ -98,8 +98,8 @@
                                     <label for="size" style="color:rgb(255, 0, 13)">Size</label>
                                     <select class="browser-default custom-select" id="size">
                                         <option value="">Choose option</option>
-                                        <option value="1500">Large =ksh 1500</option>
-                                        <option value="1000">Medium =ksh 1000</option>
+                                        <option value="1500">Large=ksh 1500</option>
+                                        <option value="1000">Medium=ksh 1000</option>
                                         <option value="500">Small= ksh500</option>
                                     </select><br>
                                 </div>
@@ -107,9 +107,9 @@
                                     <label for="crust" style="color:rgb(255, 0, 13)">Crust</label>
                                     <select class="browser-default custom-select" id="crust">
                                         <option value="">Choose option</option>
-                                        <option value="150">Crispy =ksh 150</option>
+                                        <option value="150">Crispy=ksh 150</option>
                                         <option value="100">Stuffed=ksh 100</option>
-                                        <option value="70">Gluten-free =ksh 70</option>
+                                        <option value="70">Gluten-free=ksh 70</option>
                                     </select><br>
                                 </div>
                                 <div class="col-md-3">
@@ -132,7 +132,21 @@
                         </form>
                     </div>
                 </div>
-  
+                <div class="contact" id="contact">
+                    <div class="text-contact">
+                        <h3>CONTACT US</h3>
+                        <form onsubmit="return false" method="post" name="myForm" action="../script.js" class="contact-us">
+                            <input type="text" placeholder="Enter your name" class="contact-name" id="Name1">
+                            <input type="email" placeholder="Enter your email" class="contact-email" id="Email2">
+                            <textarea id="textarea" cols="100" rows="10" placeholder="Talk to us here"></textarea>
+                            <div id="textarea-feed"></div>
+                            <div class="contact-btn">
+                                <button onclick="myforms()" id="button">Submit</button>
+                            </div>
+                            </form>
+                            </div>
+                            </div>
+                        </form>
                       <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
                       <script src="js/scripts.js"></script>
                  </body>

@@ -228,4 +228,50 @@ div.footer-imgs img {
     background-size: cover;
 }
 
+.contact {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-color: coral;
+    background-repeat: no-repeat;
+}
+.text-contact {
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+    text-align: center;
+}
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
+.contact-us input{
+    border: 2px solid white;
+    border-radius: 1px;
+    width: 25%;
+    padding-right: 2%;
+    background-color: transparent;
+}
+.contact-us textarea{
+    width: 55%;
+    height: 150px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 1px;
+    resize: none;
+    background-color: transparent;
+}
+.contact-email {
+    margin-left: 200px;
+}
 
