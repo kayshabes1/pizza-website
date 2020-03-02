@@ -9,9 +9,7 @@ body{
     font-family: 'Concert One';
     overflow-x: hidden;
 }
-{
-    font-size: 40px;
-}
+
 .navigation-container{
     box-shadow: bisque;
     background-color: gray;
