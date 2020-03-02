@@ -19,7 +19,6 @@ function getTotalAmount() {
     alert("You order will be delivered shortly")
     alert("Continue shopping with us.")
 }
-//contact us form validation
 function myforms() {
         var buttons = document.getElementById("button");
         buttons.onclick = function (event) {
