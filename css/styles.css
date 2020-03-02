@@ -6,8 +6,11 @@ body{
     background-attachment: fixed;
     width:auto;
     height: 100%;
+    font-family: 'Concert One';
 }
-
+{
+    font-size: 40px;
+}
 .navigation-container{
     box-shadow: bisque;
     background-color: gray;
@@ -68,7 +71,8 @@ h4{
 }
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 100px;
+
 }
 h2{
     text-align: center;
@@ -229,30 +233,32 @@ div.footer-imgs img {
 }
 
 .contact {
-    padding-top: 35px;
+    padding-top: 25px;
     padding-bottom: 40px;
     background-image: url(../images/cheesier.jpeg);
     background-size: cover;
     background-attachment: fixed;
     width:auto;
     height: 100%;
+    font-family: 'Concert One';
     
 }
 .text-contact {
     color: white;
     font-size: 20px;
     font-weight:bold;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Concert One';
     word-spacing: 2px;
     text-align: center;
 }
 .myForm-input {
     font-size: 12px;
-    padding: 5px 10px 10px 5px;
+    padding: 5px 10px 10px 10px;
     display: block;
     width: 100%;
     background: transparent;
     color: white;
+    font-family: 'Concert One';
 }
 .contact-us {
     background: transparent;
@@ -265,6 +271,7 @@ div.footer-imgs img {
     padding-right: 2%;
     background-color: transparent;
     padding-top: 2px;
+    font-family: 'Concert One';
 }
 .contact-us textarea{
     width: 55%;
@@ -274,9 +281,20 @@ div.footer-imgs img {
     border: 2px solid white;
     border-radius: 1px;
     resize: none;
+    font-family: 'Concert One';
     background-color: transparent;
 }
 .contact-email {
     margin-left: 200px;
+    font-family: 'Concert One';
+}
+.container4{
+    background-image: url(../images/stuffed.jpeg);
+    background-size: contain;
+    background-attachment: fixed;
+    width:auto;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
 }
 

@@ -7,6 +7,7 @@
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
         <link href="css/wickedcss.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
         <title>Kay's Pizza Place!</title>
     </head>
     <body>
@@ -29,7 +30,9 @@
             <h1>KAY'S PIZZA PLACE!</h1>
         </div>
         <div class="container2" id="menu">
+            <div class="pulse">
             <h4>SPECIALS:</h4>
+            </div>
             <div class="table">
                 <div class="row">
                     <div class="col-md-4">
@@ -135,15 +138,24 @@
                 </div>
                 <div class="order" id="order">
                     <div class="text-order">
+                        <div class="pulse">
                         <h4>PLACE AN ORDER</h4>
+                        </div>
                     </div>
                 <div class="container4">
-
+                    <form>
+                        <input type="radio" id="deliver" name="order" value="deliver">
+                        <label for="deliver">Deliver.</label><br>
+                        <input type="radio" id="no-deliver" name="no-deliver" value="no-deliver">
+                        <label for="no-deliver">Pick up from store.</label><br>
+                      </form> 
                 </div>
                 </div>
                 <div class="contact" id="contact">
                     <div class="text-contact">
+                        <div class="pulse">
                         <h3>CONTACT US</h3>
+                        </div>
                         <form onsubmit="return false" method="post" name="myForm" action="../script.js" class="contact-us">
                             <input type="text" placeholder="Enter your name" class="contact-name" id="Name1">
                             <input type="email" placeholder="Enter your email" class="contact-email" id="Email2">
