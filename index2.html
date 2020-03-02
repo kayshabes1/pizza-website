@@ -121,14 +121,18 @@
                                     <select class="browser-default custom-select" id="toppings">
                                         <option value="">Choose option</option>
                                         <option value="60">Cheese =ksh60</option>
-                                        <option value="60">pepperoni =ksh
+                                        <option value="60">pepperoni =ksh</option>
                                         <option value="60">onions =ksh60</option>
                                     </select>
                                 </div>
                                 <div class="col-md-3">
-                                    <label for="quantity" style="color: orange">Quantity</label>
-                                    <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max=""
-                                        min="0">
+                                    <label for="pizzas" style="color: orange">Pizza</label>
+                                    <select class="browser-default custom-select" id="pizz">
+                                        <option value="">Choose pizza</option>
+                                        <option value="60">Pepperoni</option>
+                                        <option value="60">Hawaiian</option>
+                                        <option value="60">BBQ</option>
+                                    </select>
                                 </div><br><br><br><br><br><br>
                                 <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
                                     onclick="getTotalAmount();"><strong>Checkout</strong></button>
@@ -150,6 +154,7 @@
                         <label for="no-deliver">Pick up from store.</label><br>
                       </form> 
                 </div>
+                <br><br><br><br>
                 </div>
                 <div class="contact" id="contact">
                     <div class="text-contact">
